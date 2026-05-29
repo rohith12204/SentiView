@@ -3,7 +3,7 @@ import { Plus, Edit3, Trash2, X, Save, Package, ShoppingBag, TrendingUp, CheckCi
 import { useAuth, authFetch } from '../context/AuthContext';
 import { useApp } from '../context/AppContext';
 
-const BASE_URL = 'http://127.0.0.1:8000/api/store';
+const BASE_URL = 'https://sentiview-api-j728.onrender.com';
 
 const EMPTY_FORM = {
   name: '', brand: '', model_name: '', price: '', description: '',

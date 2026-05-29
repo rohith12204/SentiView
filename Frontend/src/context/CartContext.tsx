@@ -1,7 +1,7 @@
 import { createContext, useContext, useState, useEffect, ReactNode } from 'react';
 import { useAuth, authFetch } from './AuthContext';
 
-const BASE_URL = 'http://127.0.0.1:8000/api/store';
+const BASE_URL = 'https://sentiview-api-j728.onrender.com';
 
 export interface CartItem {
   id: number;

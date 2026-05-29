@@ -32,7 +32,7 @@ python manage.py shell
 python manage.py runserver
 ```
 
-Server runs on: http://127.0.0.1:8000
+Server runs on: https://sentiview-api-j728.onrender.com
 
 ## API Endpoints Summary
 

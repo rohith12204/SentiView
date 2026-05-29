@@ -6,7 +6,7 @@ import { useEffect, useState } from 'react';
 import { fetchProductDetails, fetchSummary, fetchCustomersSay } from '../services/productApi';
 import ReviewSection from '../components/ReviewSection';
 
-const STORE_URL = 'http://127.0.0.1:8000/api/store';
+const STORE_URL = 'https://sentiview-api-j728.onrender.com/api/store';
 
 export default function SearchResults() {
   const { searchQuery, setSelectedProducts, setCurrentPage } = useApp();

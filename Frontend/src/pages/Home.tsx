@@ -5,7 +5,7 @@ import { useCart } from '../context/CartContext';
 import { useState, useEffect, useRef } from 'react';
 import { searchProducts } from '../services/productApi';
 
-const STORE_URL = 'http://127.0.0.1:8000/api/store';
+const STORE_URL = 'https://sentiview-api-j728.onrender.com';
 
 export default function Home() {
   const { setCurrentPage, setSearchQuery } = useApp();

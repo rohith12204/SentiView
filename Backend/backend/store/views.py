@@ -169,7 +169,7 @@ def product_detail(request, pk):
 
 def _serialize_product(p, sentiment_map=None):
     if p.image:
-        image = f'http://127.0.0.1:8000{p.image.url}'
+        image = f'https://sentiview-api-j728.onrender.com{p.image.url}'
     elif p.image_url:
         image = p.image_url
     else:

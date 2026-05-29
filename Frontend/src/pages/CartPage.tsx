@@ -4,7 +4,7 @@ import { useCart } from '../context/CartContext';
 import { useAuth, authFetch } from '../context/AuthContext';
 import { useApp } from '../context/AppContext';
 
-const BASE_URL = 'http://127.0.0.1:8000/api/store';
+const BASE_URL = 'https://sentiview-api-j728.onrender.com';
 
 const DUMMY_CARDS = [
   { label: 'Visa ending 4242', icon: '💳' },

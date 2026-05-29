@@ -3,7 +3,7 @@ import { Package, ChevronDown, ChevronUp } from 'lucide-react';
 import { useAuth, authFetch } from '../context/AuthContext';
 import { useApp } from '../context/AppContext';
 
-const BASE_URL = 'http://127.0.0.1:8000/api/store';
+const BASE_URL = 'https://sentiview-api-j728.onrender.com';
 
 function StatusBadge({ status }: { status: string }) {
   const map: Record<string, string> = {

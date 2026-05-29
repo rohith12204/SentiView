@@ -4,7 +4,7 @@ import { useApp } from '../context/AppContext';
 import { useAuth } from '../context/AuthContext';
 import { useCart } from '../context/CartContext';
 
-const STORE_URL = 'http://127.0.0.1:8000/api/store';
+const STORE_URL = 'https://sentiview-api-j728.onrender.com';
 const BRANDS = ['All', 'Apple', 'Samsung', 'Google', 'OnePlus', 'Xiaomi', 'Sony', 'Motorola'];
 
 export default function TrendingProducts() {
