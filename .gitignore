@@ -1,0 +1,52 @@
+# -----------------------------
+# Node modules
+# -----------------------------
+node_modules/
+
+# Frontend build
+dist/
+build/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# ML models / training output
+train_output/
+models/
+checkpoints/
+
+# Large model files
+*.pt
+*.pth
+*.h5
+*.pkl
+*.bin
+*.joblib
+*.onnx
+
+# Environment secrets
+.env
+
+# Logs
+*.log
+
+# OS / editor junk
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
+
+# ML trained models
+train_output/
+
+Backend/backend/ml/sentiview_model/
+Backend/backend/ml/ml/
+
+*.safetensors
+checkpoint-*/
